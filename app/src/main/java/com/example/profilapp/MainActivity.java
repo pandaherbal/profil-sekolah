@@ -17,12 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button b1 = findViewById(R.id.next); // Assuming b1 is the id of your button
 
-        b1.setOnClickListener(new View.OnClickListener() {
+        b1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                // Start the new activity here
-                Intent intent = new Intent(MainActivity.this, dashboard.class);
-                startActivity(intent);
+                startActivity(new Intent(MainActivity.this, dashboard.class));
+                finish();
             }
         });
 

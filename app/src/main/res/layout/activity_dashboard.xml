@@ -167,7 +167,6 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/tkj"
                         android:layout_width="100dp"
                         android:layout_height="120dp"
                         android:layout_margin="10dp"
@@ -175,6 +174,7 @@
                         app:cardCornerRadius="10dp">
 
                         <LinearLayout
+                            android:id="@+id/tkj"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
@@ -211,7 +211,6 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/akl"
                         android:layout_width="100dp"
                         android:layout_height="120dp"
                         android:layout_margin="10dp"
@@ -219,6 +218,7 @@
                         app:cardCornerRadius="10dp">
 
                         <LinearLayout
+                            android:id="@+id/akl"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
